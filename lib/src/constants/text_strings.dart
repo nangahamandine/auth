@@ -8,6 +8,7 @@ const String PhoneNo = "Phone No";
 const String Password = "Password";
 const String ForgetPassword = "Forgot Password";
 const String SigninwithGoogle = "Sign in with Google";
+const String Next = "Next";
 
 // Splash Screen Text
 const String AppName = "Auth";
@@ -50,6 +51,9 @@ const String ForgetPhoneSubTitle = "Enter your registered Phone No to receive OT
 
 // Forget Password Via Email - Text
 const String ForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
-const String Next = "Next";
 
+// OTP Screen - Text
+const String OtpTitle = "CO\nDE";
+const String OtpSubTitle = "Verification";
+const String OtpMessage = "Enter the verification code sent at ";
 
