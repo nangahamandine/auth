@@ -12,5 +12,5 @@ const WhiteColor = Color(0xFFF7F6F1);
 const DarkColor = Color(0xFF000000);
 
 const OnboardingPage1Color = Colors.white;
-const OnboardingPage2Color = Color(0xFFFDDCDF);
-const OnboardingPage3Color = Color(0xFFFFDCBD);
+const OnboardingPage2Color = Color(0xFFF7E7E7);
+const OnboardingPage3Color = Color(0xFFFFFEE0);

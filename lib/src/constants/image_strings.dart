@@ -12,5 +12,8 @@ const String OnboardingImage3 = "assets/images/onboarding3.png";
 // Also used for Login and Signup
 const String WelcomeScreenImage = "assets/images/welcome_screen_image.png";
 
-// Login Image
+// Login & Signup Image
 const String GoogleLogoImage = "assets/logo/google.png";
+
+// Forget Password Image
+const String ForgetPasswordImage = "assets/images/forget_password.png";

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../../constants/sizes.dart';
 import '../../../../constants/text_strings.dart';
+import '../forget_password/forget_password_options/forget_password_btn_widget.dart';
+import '../forget_password/forget_password_options/forget_password_model_bottom_sheet.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -10,7 +12,8 @@ class LoginForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Form(child: Container(
+    return Form(
+      child: Container(
       padding: EdgeInsets.symmetric(vertical: FormHeight - 10),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,10 +39,19 @@ class LoginForm extends StatelessWidget {
             ),
           ),
           SizedBox(height: FormHeight - 20,),
+
+          // Forget password btn
           Align(
               alignment: Alignment.centerRight,
-              child: TextButton(onPressed: () {},
-                  child: Text(ForgetPassword))),
+              child: TextButton(
+                  onPressed: () {
+                    ForgetPasswordScreen.buildShowModalBottomSheet(context);
+                  },
+                  child: Text(ForgetPassword)
+              ),
+          ),
+
+          // Login btn
           SizedBox(
               width: double.infinity,
               child: ElevatedButton(

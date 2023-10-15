@@ -38,3 +38,18 @@ const String DontHaveAnAccount = "Don\'t have an Account?";
 const String SignupTitle = "Get On Board!";
 const String SignupSubtitle = "Create your profile to start your journey with us";
 const String AlreadyHaveAnAccount = "Already have an  account?";
+
+// Forget Password Text
+const String ForgetPasswordTitle = "Make Selection";
+const String ForgetPasswordSubTitle = "Select one of the options given below to reset your password";
+const String ResetViaEmail = "Reset via E-Mail Verification";
+const String ResetViaPhone = "Reset via Phone Verification";
+
+// Forget Password Via Phone - Text
+const String ForgetPhoneSubTitle = "Enter your registered Phone No to receive OTP";
+
+// Forget Password Via Email - Text
+const String ForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
+const String Next = "Next";
+
+

@@ -50,7 +50,7 @@ class WelcomeScreen extends StatelessWidget {
                     children: [
                       Text(
                         WelcomeTitle,
-                        style: Theme.of(context).textTheme.headline4,),
+                        style: Theme.of(context).textTheme.headline3,),
                       Text(
                         WelcomeSubTitle,
                         style: Theme.of(context).textTheme.bodyText1,
