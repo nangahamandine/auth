@@ -3,12 +3,14 @@ import 'package:auth/src/constants/colors.dart';
 import 'package:auth/src/constants/image_strings.dart';
 import 'package:auth/src/constants/sizes.dart';
 import 'package:auth/src/constants/text_strings.dart';
+import 'package:auth/src/features/authentication/screens/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
 import '../../../../common_widgets/fade_in_animation/animation_design.dart';
 import '../../../../common_widgets/fade_in_animation/fade_in_animation_model.dart';
+import '../signup_screen/signup_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -59,14 +61,14 @@ class WelcomeScreen extends StatelessWidget {
                     children: [
                       Expanded(
                         child: OutlinedButton(
-                          onPressed: () {},
+                          onPressed: () => Get.to(() => const LoginScreen()),
                           child: Text(Login.toUpperCase()),
                         ),
                       ),
                       SizedBox(width: 10.0),
                       Expanded(
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () => Get.to(() => const SignupScreen()),
                           child: Text(Signup.toUpperCase()),
                         ),
                       ),

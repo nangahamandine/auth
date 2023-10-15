@@ -1,5 +1,6 @@
 import 'package:auth/src/utils/theme/widget_themes/elevated_button_theme.dart';
 import 'package:auth/src/utils/theme/widget_themes/outlined_button_theme.dart';
+import 'package:auth/src/utils/theme/widget_themes/text_form_field_theme.dart';
 import 'package:auth/src/utils/theme/widget_themes/text_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +13,7 @@ class AppTheme {
     textTheme: AppTextTheme.lightTextTheme,
     outlinedButtonTheme: AOutlinedButtonTheme.lightOutlinedButtomTheme,
     elevatedButtonTheme: AElevatedButtonTheme.lightElevatedButtomTheme,
+    inputDecorationTheme: TextFormFieldTheme.lightInputDecorationTheme,
   );
 
 
@@ -20,6 +22,7 @@ class AppTheme {
     textTheme: AppTextTheme.darkTextTheme,
     outlinedButtonTheme: AOutlinedButtonTheme.darkOutlinedButtonTheme,
     elevatedButtonTheme: AElevatedButtonTheme.darkElevatedButtonTheme,
+    inputDecorationTheme: TextFormFieldTheme.darkInputDecorationTheme,
   );
 
 }

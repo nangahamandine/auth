@@ -1,7 +1,13 @@
 
 // Generic Text
-String Login = "Login";
-String Signup = "Signup";
+const String Login = "Login";
+const String Signup = "Signup";
+const String FullName = "Full Name";
+const String Email = "Email";
+const String PhoneNo = "Phone No";
+const String Password = "Password";
+const String ForgetPassword = "Forgot Password";
+const String SigninwithGoogle = "Sign in with Google";
 
 // Splash Screen Text
 const String AppName = "Auth";
@@ -21,3 +27,14 @@ const String OnboardingCounter3 = "3/3";
 // Welcome Screen Text
 const String WelcomeTitle = "Build Awesome Apps";
 const String WelcomeSubTitle = "Watch me create the best apps ever created";
+
+// Login Screen Text
+const String LoginTitle = "Welcome Back,";
+const String LoginSubTitle = "Make it work, make it right, make it fast";
+const String RememberMe = "Remember Me?";
+const String DontHaveAnAccount = "Don\'t have an Account?";
+
+// Sign Up Screen Text
+const String SignupTitle = "Get On Board!";
+const String SignupSubtitle = "Create your profile to start your journey with us";
+const String AlreadyHaveAnAccount = "Already have an  account?";
