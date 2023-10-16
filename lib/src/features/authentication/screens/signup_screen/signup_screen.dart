@@ -1,6 +1,7 @@
 import 'package:auth/src/constants/colors.dart';
 import 'package:auth/src/constants/sizes.dart';
 import 'package:auth/src/constants/text_strings.dart';
+import 'package:auth/src/features/authentication/screens/signup_screen/signup_footer_widget.dart';
 import 'package:auth/src/features/authentication/screens/signup_screen/signup_form_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -29,29 +30,7 @@ class SignupScreen extends StatelessWidget {
                     subtitle: SignupSubtitle,
                   ),
                   SignupFormWidget(),
-                  Column(
-                    children: [
-                      const Text("OR"),
-                      SizedBox(
-                        width: double.infinity,
-                        child: OutlinedButton.icon(
-                            onPressed: () {},
-                            icon: const Image(
-                              image: AssetImage(GoogleLogoImage),
-                              width: 20.0,),
-                            label: Text(SigninwithGoogle.toUpperCase())),
-                      ),
-                      TextButton(
-                          onPressed: () {},
-                          child: Text.rich(
-                              TextSpan(
-                                children: [
-                                  TextSpan(text: AlreadyHaveAnAccount, style: Theme.of(context).textTheme.bodyText1),
-                                  TextSpan(text: Login.toUpperCase())
-                                ]
-                              )))
-                    ],
-                  )
+                  SignupFooterWidget()
                 ],
               ),
             ),

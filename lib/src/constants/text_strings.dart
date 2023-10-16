@@ -57,3 +57,9 @@ const String OtpTitle = "CO\nDE";
 const String OtpSubTitle = "Verification";
 const String OtpMessage = "Enter the verification code sent at ";
 
+// Dashboard Screen - Text
+const String DashboardTitle = "Hey, meet Nangah Amandine";
+const String DashboardHeading = "You're welcome to explore";
+const String DashboardSearch = "Search...";
+
+

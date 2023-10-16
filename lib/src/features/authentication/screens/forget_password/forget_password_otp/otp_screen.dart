@@ -21,7 +21,7 @@ class OTPScreen extends StatelessWidget {
             ),),
             Text(OtpSubTitle.toUpperCase(), style: Theme.of(context).textTheme.headline6,),
             SizedBox(height: 40.0),
-            Text("$OtpMessage support@nangahamandine.com", textAlign: TextAlign.center,),
+            Text("$OtpMessage amandinenangah1@gmail.com", textAlign: TextAlign.center,),
             SizedBox(height: 20.0),
             OtpTextField(
               numberOfFields: 6,

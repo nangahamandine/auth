@@ -17,3 +17,7 @@ const String GoogleLogoImage = "assets/logo/google.png";
 
 // Forget Password Image
 const String ForgetPasswordImage = "assets/images/forget_password.png";
+
+// Basic Dashboard Image
+const String BannerImage = "assets/images/dash1.png";
+const String UserProfileImage = "assets/images/user_profile.png";
