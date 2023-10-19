@@ -1,4 +1,7 @@
+import 'package:auth/src/features/authentication/screens/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 import '../../../../constants/image_strings.dart';
 import '../../../../constants/text_strings.dart';
@@ -23,7 +26,9 @@ class SignupFooterWidget extends StatelessWidget {
               label: Text(SigninwithGoogle.toUpperCase())),
         ),
         TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.to(() => const LoginScreen());
+            },
             child: Text.rich(
                 TextSpan(
                     children: [
